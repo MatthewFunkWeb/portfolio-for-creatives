@@ -105,9 +105,9 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #5200ff;
-  --project-title-color: #5200ff;
+  --project-title-color: #000000;
   --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-sidebar-text-color: #000000;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
