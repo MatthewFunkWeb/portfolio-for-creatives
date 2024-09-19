@@ -277,7 +277,6 @@ a:active {
 .custom-navigation:hover {
   background: url(assets/temp/heading-background.svg);
   background-size: 15%;
-  font-family: var(--project-title-typeface);
   background-repeat: no-repeat;
   background-position: center center;
 }
