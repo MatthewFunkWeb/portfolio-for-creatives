@@ -234,6 +234,7 @@ em {
 a:link {
   color: var(--hyperlink-color);
   font-family: var(--heading-typeface);
+  font-size: 1.325rem;
   text-decoration: none;
 }
 
