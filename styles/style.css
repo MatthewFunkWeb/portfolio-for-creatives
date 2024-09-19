@@ -102,7 +102,7 @@ html {
   --overlay-color: #ffffff;
   --overlay-title-color: #000000;
   --overlay-description-color: #000000;
-  --hyperlink-color: #5200ff;
+  --hyperlink-color: #000000;
   --hyperlink-alternate-color: #000000;
   --hover-color: #111;
   --visited-color: #5200ff;
@@ -234,7 +234,7 @@ em {
 a:link {
   color: var(--hyperlink-color);
   font-family: var(--heading-typeface);
-  font-size: 1.325rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
