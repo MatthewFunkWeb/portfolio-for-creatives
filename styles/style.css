@@ -233,8 +233,8 @@ em {
 
 a:link {
   color: var(--hyperlink-color);
-  font-family: var(--heading-typeface);
-  font-size: 1.325rem;
+  font-family: var(--body-typeface);
+  font-size: 1rem;
   text-decoration: none;
 }
 
