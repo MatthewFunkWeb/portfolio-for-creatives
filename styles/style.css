@@ -84,7 +84,7 @@ html {
 :root {
   --body-typeface: "Roboto", sans-serif;
   --heading-typeface: "Darker Grotesque", sans-serif;
-  --project-title-typeface: "Montagu Slab", serif;
+  --project-title-typeface: "Darker Grotesque", sans-serif;
   --background-color: #ffffff;
   --background-color-about: #ffffff;
   --background-color-footer: #ffffff;
