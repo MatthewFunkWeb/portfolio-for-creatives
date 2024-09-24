@@ -101,13 +101,13 @@ html {
   --hyperlink-color: #000000;
   --hyperlink-alternate-color: #000000;
   --hover-color: #111;
-  --visited-color: #5200ff;
+  --visited-color: #000000;
   --project-title-color: #000000;
   --project-sidebar-background-color: #ffffff);
   --project-sidebar-text-color: #000000;
   --heart-color: darkred;
   --holding-page-footer-color: #000000;
-  --text-selection-background-color: #5200ff;
+  --text-selection-background-color: #000000;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
