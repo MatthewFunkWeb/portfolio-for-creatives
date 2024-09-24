@@ -82,7 +82,7 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Roboto", sans-serif;
+  --body-typeface: "Darker Grotesque", sans-serif;
   --heading-typeface: "Darker Grotesque", sans-serif;
   --project-title-typeface: "Darker Grotesque", sans-serif;
   --background-color: #ffffff;
