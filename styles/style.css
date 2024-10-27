@@ -322,65 +322,40 @@ a:active {
                                  
 */
 
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: var(--body-typeface);
-  font-size: 1rem;
-  background: #f5f5f5;
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 40vh;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
+.hero-header {
+  width: 100%;
 }
-
-a:hover {
-  text-decoration: none;
-}
-
 .branding-navigation {
-  box-shadow: 0 1px 0 #000;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.menu {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr fr 1fr 1fr 1fr;
+  align-items: center;
+  width: 95%;
+  border-bottom: 1px solid black;
+
+  padding: 0rem 0rem 1rem 0rem;
+  margin: 1rem 2.5% 1rem 2.5%;
 }
 
-.menu-item {
-  padding-left: 4rem;
+.menu-item-1 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.menu-item-2 {
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
 }
 
 .custom-navigation {
   font-size: 1rem;
-}
-
-.hero {
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.branding-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .logo {
@@ -388,31 +363,26 @@ a:hover {
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
-.hero-headline-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 4rem;
-  text-align: center;
-}
-
 .hero-icon {
   font-size: 4rem;
 }
 
-.hero-footer {
+.header-image {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
 }
 
-.hero-footer-navigation {
+.hero-image-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
   padding: 1rem;
 }
 
@@ -425,15 +395,6 @@ a:hover {
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
-
-.header-image {
-  display: block;
-  margin-top: 0.1rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  min-height: 60vh;
-}
 
 .work-wrapper {
   flex: 1;
@@ -819,6 +780,17 @@ a:hover {
 @media (min-width: 992px) {
   /* TODO: Add or adjust styles here for large devices. */
 
+  .hero-wrapper {
+    min-height: 80vh;
+  }
+
+  .hero-image-wrapper {
+    width: 40%;
+  }
+  .branding-navigation {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
   .holding-page-title {
     font-size: 2rem;
   }
@@ -842,10 +814,6 @@ a:hover {
 
   .hero {
     min-height: 100vh;
-  }
-
-  .hero-headline-wrapper {
-    padding: 4rem 8rem;
   }
 
   .grid {
