@@ -553,6 +553,13 @@ a:active {
   align-self: end;
 }
 
+.awards {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 1px 0 #000;
+}
+
 /* Project Page 
 
 ██████  ██████   ██████       ██ ███████  ██████ ████████     ██████   █████   ██████  ███████ 
