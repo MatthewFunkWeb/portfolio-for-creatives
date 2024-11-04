@@ -501,9 +501,7 @@ a:active {
 .global-footer {
   box-shadow: 0 -1px 0 #000;
   padding-top: 0.75rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin: 0rem 2.5% 2rem 2.5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
@@ -850,7 +848,13 @@ a:active {
   }
 
   .global-footer {
+    box-shadow: 0 -1px 0 #000;
+    padding-top: 0.75rem;
+    margin: 0rem 2.5% 2rem 2.5%;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    background: var(--background-color-footer);
   }
 
   .work-page-thing {
@@ -892,7 +896,6 @@ a:active {
   .work-page-item-5 {
     grid-column: 3 / 5;
     grid-row: 3 / 3;
-    padding-bottom: 0.75rem;
     background: salmon;
     border: 2px solid yellowgreen;
   }
