@@ -402,6 +402,7 @@ a:active {
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
+  margin: 0rem 2.5% 0rem 2.5%;
   box-shadow: 0 -1px 0 #000;
   padding-top: 0.75rem;
   border: 0px dotted deepskyblue;
@@ -999,8 +1000,7 @@ a:active {
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 0rem 2.5% 0rem 2.5%;
   }
 
   /* Project Page Flex Direction on Large Devices */
