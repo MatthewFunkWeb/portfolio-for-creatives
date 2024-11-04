@@ -541,12 +541,14 @@ a:active {
   box-shadow: 0 -1px 0 #000;
   grid-row: 4 / 4;
   grid-column: 1 / 7;
+  padding-bottom: 1rem;
 }
 
 .footer-item-7 {
   box-shadow: 0 -1px 0 #000;
   grid-row: 5 / 5;
   grid-column: 1 / 7;
+  padding-bottom: 1rem;
 }
 
 .footer-item-8 {
@@ -978,12 +980,14 @@ a:active {
     box-shadow: 0 -1px 0 #000;
     grid-row: 2 / 3;
     grid-column: 5 / 7;
+    padding-bottom: 0rem;
   }
 
   .footer-item-7 {
     box-shadow: 0 -1px 0 #000;
     grid-row: 3 / 3;
     grid-column: 5 / 7;
+    padding-bottom: 0rem;
   }
 
   .footer-item-8 {
