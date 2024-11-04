@@ -595,7 +595,6 @@ a:active {
 }
 
 .work-page-item-2 {
-  padding-bottom: 3rem;
   grid-column: 1 / 7;
   grid-row: 2 / 2;
   background: salmon;
@@ -886,7 +885,6 @@ a:active {
   }
 
   .work-page-item-2 {
-    padding-bottom: 3rem;
     grid-column: 1 / 4;
     grid-row: 2 / 2;
     background: salmon;
