@@ -622,6 +622,20 @@ a:active {
   border: 2px solid yellowgreen;
 }
 
+.work-page-item-7 {
+  grid-column: 1 / 4;
+  grid-row: 4 / 4;
+  background: salmon;
+  border: 2px solid yellowgreen;
+}
+
+.work-page-item-8 {
+  grid-column: 4 / 7;
+  grid-row: 4 / 4;
+  background: salmon;
+  border: 2px solid yellowgreen;
+}
+
 .project-wrapper {
   display: flex;
   flex-direction: column;
