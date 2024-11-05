@@ -153,7 +153,7 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 900;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
@@ -674,6 +674,11 @@ a:active {
   grid-row: 10 / 10;
 }
 
+.sigil-work-page-item-6 {
+  grid-column: 1 / 7;
+  grid-row: 11 / 11;
+}
+
 .siren-work-page-item-1 {
   padding-bottom: 0.75rem;
   box-shadow: 0 1px 0 #000;
@@ -799,6 +804,7 @@ a:active {
 }
 
 .holding-page-title {
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--holding-page-title-color);
 }
@@ -811,7 +817,7 @@ a:active {
 }
 
 .holding-page-copyright {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--holding-page-footer-color);
   margin-bottom: 0;
 }
@@ -1020,6 +1026,11 @@ a:active {
   .sigil-work-page-item-5 {
     grid-column: 4 / 7;
     grid-row: 7 / 7;
+  }
+
+  .sigil-work-page-item-6 {
+    grid-column: 1 / 7;
+    grid-row: 8 / 8;
   }
 
   .siren-work-page-item-1 {
