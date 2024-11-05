@@ -336,11 +336,11 @@ a:active {
 }
 .branding-navigation {
   display: grid;
-  grid-template-columns: 1fr 1fr fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
   align-items: center;
   width: 95%;
   border-bottom: 1px solid black;
-
   padding: 0rem 0rem 1rem 0rem;
   margin: 1rem 2.5% 1rem 2.5%;
 }
