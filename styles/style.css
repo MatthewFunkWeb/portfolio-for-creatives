@@ -804,7 +804,7 @@ a:active {
 }
 
 .holding-page-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.5rem;
   color: var(--holding-page-title-color);
 }
