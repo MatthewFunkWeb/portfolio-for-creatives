@@ -994,8 +994,6 @@ a:active {
   .work-page-item-4 {
     grid-column: 1 / 3;
     grid-row: 4 / 4;
-    background: salmon;
-    border: 2px solid yellowgreen;
   }
 
   .work-page-item-5 {
