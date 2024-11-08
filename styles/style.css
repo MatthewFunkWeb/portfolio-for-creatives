@@ -903,7 +903,7 @@ a:active {
   }
 
   .hero-image-wrapper {
-    width: 40%;
+    width: 60%;
   }
 
   .branding-navigation {
@@ -1215,6 +1215,10 @@ a:active {
 @media (min-width: 1200px) {
   /* TODO: Add styles here for X-large devices. */
 
+  .hero-image-wrapper {
+    width: 50%;
+  }
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   }
@@ -1224,6 +1228,10 @@ a:active {
 
 @media (min-width: 1400px) {
   /* TODO: Add styles here for XX-large devices. */
+
+  .hero-image-wrapper {
+    width: 40%;
+  }
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
