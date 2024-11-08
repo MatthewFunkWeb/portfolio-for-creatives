@@ -903,7 +903,7 @@ a:active {
   }
 
   .hero-image-wrapper {
-    width: 40%;
+    width: 100%;
   }
   .branding-navigation {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
