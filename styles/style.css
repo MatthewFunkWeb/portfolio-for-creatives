@@ -160,11 +160,10 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 900;
   font-family: var(--heading-typeface);
-  color: var(--h2-color);
-  line-height: 1.1;
+  color: var(--h1-color);
 }
 
 h3 {
@@ -919,7 +918,7 @@ a:active {
   }
 
   h2 {
-    font-size: 2.25rem;
+    font-size: 4rem;
   }
 
   h3 {
