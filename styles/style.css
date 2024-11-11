@@ -1096,7 +1096,6 @@ a:active {
   }
 
   .about-item-1 {
-    border: 2px dotted deepskyblue;
     grid-column: 4 / 7;
     grid-row: 1 / 2;
     align-self: end;
@@ -1104,7 +1103,6 @@ a:active {
   }
 
   .about-item-2 {
-    border: 2px dotted deepskyblue;
     grid-row: 1 / 2;
     grid-column: 1 / 4;
     align-self: end;
