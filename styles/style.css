@@ -176,7 +176,7 @@ h3 {
 h4 {
   font-size: 1rem;
   font-family: var(--body-typeface);
-  margin-bottom: 1rem;
+  font-weight: 700;
   color: var(--h4-color);
 }
 
@@ -198,7 +198,7 @@ h6 {
 p {
   font-size: 1rem;
   font-family: var(--body-typeface);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -355,6 +355,7 @@ a:active {
 
 .custom-navigation {
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .logo {
@@ -625,6 +626,7 @@ a:active {
 }
 
 .roles {
+  font-weight: 700;
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1252,6 +1254,7 @@ a:active {
   }
 
   .awards {
+    font-weight: 700;
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
