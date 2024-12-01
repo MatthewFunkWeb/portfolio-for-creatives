@@ -560,6 +560,7 @@ a:active {
 }
 
 .awards {
+  font-weight: 700;
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
