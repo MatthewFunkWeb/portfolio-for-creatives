@@ -199,7 +199,7 @@ p {
   font-size: clamp(1rem, calc(0.5rem + 0.6vw), 2rem);
   font-family: var(--body-typeface);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 em {
@@ -595,10 +595,15 @@ a:active {
 
 .awards {
   font-weight: 700;
+  line-height: 1.2;
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
   box-shadow: 0 1px 0 #000;
+}
+
+.fineprint {
+  line-height: 1.2;
 }
 
 /* Project Page 
@@ -1004,6 +1009,9 @@ a:active {
 
 @media (min-width: 768px) {
   /* TODO: Add styles here for medium devices. */
+  p {
+    line-height: 1.2;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1042,6 +1050,10 @@ a:active {
   .logo {
     width: 4rem;
     /* TODO: Adjust the width of the logo on large devices here. */
+  }
+
+  p {
+    line-height: 1.2;
   }
 
   .hero {
@@ -1350,6 +1362,7 @@ a:active {
 
   .awards {
     font-weight: 700;
+    line-height: 1.2;
     padding-top: 0.4rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
