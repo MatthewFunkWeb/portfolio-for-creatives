@@ -51,16 +51,13 @@
         <div style="padding: 56.25% 0 0 0; position: relative">
           <!-- Placeholder Image -->
           <img
-            src="assets/denizen/denizen-logo.jpg"
+            src="assets/denizen/denizen-logo-frame.png"
             alt="Placeholder"
             class="video-placeholder"
-          >
-      
+          />
+
           <!-- Div where the Vimeo iframe will be injected on scroll -->
-          <div
-            class="vimeo-embed"
-            data-vimeo-id="1055303394"
-          ></div>
+          <div class="vimeo-embed" data-vimeo-id="1055303394"></div>
         </div>
       </li>
 
@@ -116,16 +113,13 @@
         <div style="padding: 56.25% 0 0 0; position: relative">
           <!-- Placeholder Image -->
           <img
-            src="assets/denizen/test.png"
+            src="assets/denizen/denizen-social-media-frame.png"
             alt="Placeholder"
             class="video-placeholder"
-          >
-      
+          />
+
           <!-- Div where Vimeo iframe will be injected on scroll -->
-          <div
-            class="vimeo-embed"
-            data-vimeo-id="1058747573"
-          ></div>
+          <div class="vimeo-embed" data-vimeo-id="1058747573"></div>
         </div>
       </li>
       <li class="denizen-work-page-item-4">
@@ -134,12 +128,9 @@
             src="assets/denizen/laptop-mockup.jpg"
             alt="Placeholder"
             class="video-placeholder"
-          >
+          />
           <!-- Container where iframe will be injected -->
-          <div
-            class="vimeo-embed"
-            data-vimeo-id="1078447349"
-          ></div>
+          <div class="vimeo-embed" data-vimeo-id="1078447349"></div>
         </div>
       </li>
       <li class="denizen-work-page-item-5">
@@ -149,21 +140,17 @@
           alt="A looping animation of illustrated flowers"
         />
       </li>
-      </li>
       <li class="denizen-work-page-item-6">
         <div style="padding: 100% 0 0 0; position: relative">
           <!-- Placeholder Image -->
           <img
-            src="assets/denizen/posters.jpg"
+            src="assets/denizen/denizen-updated-poster-frame.png"
             alt="Placeholder"
             class="video-placeholder"
-          >
-      
+          />
+
           <!-- Div where Vimeo iframe will be injected on scroll -->
-          <div
-            class="vimeo-embed"
-            data-vimeo-id="1078570959"
-          ></div>
+          <div class="vimeo-embed" data-vimeo-id="1078570959"></div>
         </div>
       </li>
     </ul>
@@ -260,10 +247,10 @@
     <div id="myID" class="bottomMenu hide"></div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         // Sticky header scroll (your original script)
         var myID = document.getElementById("myID");
-        window.addEventListener("scroll", function() {
+        window.addEventListener("scroll", function () {
           var y = window.scrollY;
           if (y >= 800) {
             myID.className = "bottomMenu show";
@@ -271,39 +258,42 @@
             myID.className = "bottomMenu hide";
           }
         });
-    
+
         // Smarter Vimeo Lazy Load
-        const lazyVimeoVideos = document.querySelectorAll('.vimeo-embed');
-    
-        const loadVimeoVideo = function(container) {
-          const videoId = container.getAttribute('data-vimeo-id');
+        const lazyVimeoVideos = document.querySelectorAll(".vimeo-embed");
+
+        const loadVimeoVideo = function (container) {
+          const videoId = container.getAttribute("data-vimeo-id");
           if (!videoId) return; // Safety check
-    
-          const iframe = document.createElement('iframe');
-          iframe.src = "https://player.vimeo.com/video/" + videoId + "?autoplay=1&loop=1&background=1&muted=1&dnt=1";
+
+          const iframe = document.createElement("iframe");
+          iframe.src =
+            "https://player.vimeo.com/video/" +
+            videoId +
+            "?autoplay=1&loop=1&background=1&muted=1&dnt=1";
           iframe.frameBorder = "0";
           iframe.allow = "autoplay; fullscreen; picture-in-picture";
           iframe.allowFullscreen = true;
           iframe.style.width = "100%";
           iframe.style.height = "100%";
-    
+
           container.appendChild(iframe);
         };
-    
+
         const observerOptions = {
-          threshold: 0.15 // Load when 15% of the video container is visible
+          threshold: 0.15, // Load when 15% of the video container is visible
         };
-    
-        const observer = new IntersectionObserver(function(entries, observer) {
-          entries.forEach(function(entry) {
+
+        const observer = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
             if (entry.isIntersecting) {
               loadVimeoVideo(entry.target);
               observer.unobserve(entry.target); // Stop watching after it loads
             }
           });
         }, observerOptions);
-    
-        lazyVimeoVideos.forEach(function(videoContainer) {
+
+        lazyVimeoVideos.forEach(function (videoContainer) {
           observer.observe(videoContainer);
         });
       });
